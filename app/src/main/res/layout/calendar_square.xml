@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/calendar_square"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/item_border_to_do"
+
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/calendar_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/to_do_item_name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginStart="8dp"
+
+        android:gravity="center_vertical"
+        android:text="1" />
+
+    <!-- GROUP COLORS -->
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_red" android:background="@color/cal_red"/>
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_orange" android:background="@color/cal_orange"/>
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_yellow" android:background="@color/cal_yellow"/>
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_green" android:background="@color/cal_green"/>
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_aqua" android:background="@color/cal_aqua"/>
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_blue" android:background="@color/cal_blue"/>
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_dark_blue" android:background="@color/cal_dark_blue"/>
+    <View android:layout_width="match_parent" android:layout_marginHorizontal="8dp" android:layout_height="3dp" android:layout_gravity="center" android:layout_marginTop="1dp"
+        android:id="@+id/cal_magenta" android:background="@color/cal_magenta"/>
+
+</LinearLayout>

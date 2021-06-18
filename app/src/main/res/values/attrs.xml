@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="to_do_item_background" format="reference" />
+    <attr name="to_do_item_border" format="reference" />
+    <attr name="to_do_item_name" format="reference" />
+    <attr name="current_day_color" format="reference" />
+    <attr name="today_color" format="reference" />
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Colors used for the priorities -->
+    <color name="pri_red">#FF0000</color>
+    <color name="pri_yellow">#FFC107</color>
+    <color name="pri_green">#8BC34A</color>
+    <!-- Colors used in the app -->
+    <color name="aqua">#00DBAE</color>
+    <color name="main_blue">#00DCFF</color>
+    <color name="secondary_blue">#12BDD8</color>
+    <color name="gray">#979B9C</color>
+    <color name="light_gray">#B5B5B5</color>
+    <color name="lightest_gray">#EAE8E8</color>
+    <color name="medium_gray">#636565</color>
+    <color name="dark_gray">#252525</color>
+    <!-- Calendar group colors -->
+    <color name="cal_red">#E41010</color>
+    <color name="cal_orange">#FF6C17</color>
+    <color name="cal_yellow">#FFF049</color>
+    <color name="cal_green">#00FF1E</color>
+    <color name="cal_aqua">#00FFFF</color>
+    <color name="cal_blue">#1797FF</color>
+    <color name="cal_dark_blue">#4000FF</color>
+    <color name="cal_magenta">#FF00D0</color>
+</resources>

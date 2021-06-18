@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_help"
+        android:enabled="true"
+        android:icon="@drawable/ic_help"
+        app:iconTint="@color/white"
+        app:showAsAction="ifRoom"
+        android:title="Calendar"/>
+
+    <item
+        android:id="@+id/action_group_names"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="Change Event Groups"/>
+
+</menu>
